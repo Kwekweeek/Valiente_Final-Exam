@@ -1,18 +1,27 @@
-## Getting Started
+## Final Examination
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+### Instructions:
+Create a Java program that organizes and displays creatures based on their power levels and names using Bubble Sort, Selection Sort, and Stack.
+### Problem Requirements:
 
-## Folder Structure
+1. Input Data (Fixed)
+   - The program will use the following creatures and their power levels:
 
-The workspace contains two folders by default, where:
+### Creature Name Power Level:
+    - Dragon 95
+    - Griffin 88
+    - Unicorn 78
+    - Phoenix 92
+    - Centaur 85
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+2. Bubble Sort Implement
+   -  Sort the power levels in descending order using the Bubble Sort algorithm.
+   -  Display the sorted list.
+3. Selection Sort Implementation
+   - Sort the power levels in ascending order using the Selection Sort algorithm.
+   - Display the sorted list.
+4. Stack Implementation
+   - Using bubble or selection sort, push all the creatures onto a stack data structure.
+   - Then, pop all the creatures from the stack and display their details individually in the descending order of their power levels.
+     
+5. Add comments to explain your code.
